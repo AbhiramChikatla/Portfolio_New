@@ -75,7 +75,7 @@ const RecentProjects = () => {
 {/* TODO:changed div to Link */}
                                 <Link href={item.link} target="_blank" className="flex justify-center items-center">
                                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                                        Check GitHub Repo
+                                        {item.working ? "Check Live Demo": "Check Repo"}
                                     </p>
                                     <FaLocationArrow
                                         className="ms-3"
